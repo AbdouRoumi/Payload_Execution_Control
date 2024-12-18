@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mutex_Payload_Execution_Control", "Mutex_Payload_Execution_Control\Mutex_Payload_Execution_Control.vcxproj", "{AA1C70E6-150E-4D76-93EF-9795C128B292}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Semaphore_Payload_execution_control", "Semaphore_Payload_execution_control\Semaphore_Payload_execution_control.vcxproj", "{B3DBCD34-FC37-442B-B8FB-E60C9231B404}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Event_Payload_Execution_Control", "Event_Payload_Execution_Control\Event_Payload_Execution_Control.vcxproj", "{6A955D5B-7DDE-4707-B03D-301E635F503C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{AA1C70E6-150E-4D76-93EF-9795C128B292}.Release|x64.Build.0 = Release|x64
 		{AA1C70E6-150E-4D76-93EF-9795C128B292}.Release|x86.ActiveCfg = Release|Win32
 		{AA1C70E6-150E-4D76-93EF-9795C128B292}.Release|x86.Build.0 = Release|Win32
+		{B3DBCD34-FC37-442B-B8FB-E60C9231B404}.Debug|x64.ActiveCfg = Debug|x64
+		{B3DBCD34-FC37-442B-B8FB-E60C9231B404}.Debug|x64.Build.0 = Debug|x64
+		{B3DBCD34-FC37-442B-B8FB-E60C9231B404}.Debug|x86.ActiveCfg = Debug|Win32
+		{B3DBCD34-FC37-442B-B8FB-E60C9231B404}.Debug|x86.Build.0 = Debug|Win32
+		{B3DBCD34-FC37-442B-B8FB-E60C9231B404}.Release|x64.ActiveCfg = Release|x64
+		{B3DBCD34-FC37-442B-B8FB-E60C9231B404}.Release|x64.Build.0 = Release|x64
+		{B3DBCD34-FC37-442B-B8FB-E60C9231B404}.Release|x86.ActiveCfg = Release|Win32
+		{B3DBCD34-FC37-442B-B8FB-E60C9231B404}.Release|x86.Build.0 = Release|Win32
+		{6A955D5B-7DDE-4707-B03D-301E635F503C}.Debug|x64.ActiveCfg = Debug|x64
+		{6A955D5B-7DDE-4707-B03D-301E635F503C}.Debug|x64.Build.0 = Debug|x64
+		{6A955D5B-7DDE-4707-B03D-301E635F503C}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A955D5B-7DDE-4707-B03D-301E635F503C}.Debug|x86.Build.0 = Debug|Win32
+		{6A955D5B-7DDE-4707-B03D-301E635F503C}.Release|x64.ActiveCfg = Release|x64
+		{6A955D5B-7DDE-4707-B03D-301E635F503C}.Release|x64.Build.0 = Release|x64
+		{6A955D5B-7DDE-4707-B03D-301E635F503C}.Release|x86.ActiveCfg = Release|Win32
+		{6A955D5B-7DDE-4707-B03D-301E635F503C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
